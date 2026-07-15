@@ -37,9 +37,9 @@ function AddBook() {
       navigate("/seller/products");
     } catch (error) {
       console.log(error);
-console.log(error.response?.data);
+       console.log(error.response?.data);
 
-alert(error.response?.data?.message || error.message);
+     alert(error.response?.data?.message || error.message);
     }
   };
 
