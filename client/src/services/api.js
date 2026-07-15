@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "http://localhost:8000",
+  baseURL: "https://bookstore-mern-38rd.onrender.com/",
 });
 
 export default API;
