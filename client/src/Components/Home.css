@@ -1,0 +1,74 @@
+body{
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif;
+    background:#f5f5f5;
+}
+
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background:#1e3a8a;
+    color:white;
+    padding:15px 40px;
+}
+
+.navbar button{
+    margin-left:10px;
+    padding:10px 15px;
+    border:none;
+    cursor:pointer;
+    border-radius:5px;
+}
+
+.hero{
+    text-align:center;
+    padding:70px 20px;
+}
+
+.hero h1{
+    font-size:45px;
+}
+
+.hero p{
+    font-size:20px;
+    color:gray;
+}
+
+.btn{
+    padding:12px 25px;
+    border:none;
+    background:#2563eb;
+    color:white;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+.books{
+    padding:40px;
+}
+
+.books h2{
+    text-align:center;
+}
+
+.book-container{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.card{
+    width:220px;
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    text-align:center;
+    box-shadow:0 0 10px rgba(0,0,0,.2);
+}
+
+.card:hover{
+    transform:scale(1.05);
+    transition:.3s;
+}
