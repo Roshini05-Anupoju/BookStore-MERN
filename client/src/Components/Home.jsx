@@ -6,22 +6,36 @@ function Home() {
     <div className="home">
 
       <nav className="navbar">
-        <h2>📚 BookStore</h2>
+  <h2>📚 BookStore</h2>
 
-        <div>
-          <Link to="/login">
-            <button>User Login</button>
-          </Link>
+  <div>
+    <Link to="/signup">
+      <button>User Register</button>
+    </Link>
 
-          <Link to="/seller/login">
-            <button>Seller Login</button>
-          </Link>
+    <Link to="/login">
+      <button>User Login</button>
+    </Link>
 
-          <Link to="/admin/login">
-            <button>Admin Login</button>
-          </Link>
-        </div>
-      </nav>
+    <Link to="/seller/signup">
+      <button>Seller Register</button>
+    </Link>
+
+    <Link to="/seller/login">
+      <button>Seller Login</button>
+    </Link>
+
+    <Link to="/admin/login">
+      <button>Admin Login</button>
+    </Link>
+
+    <Link to="/admin/signup">
+  <button>Admin Register</button>
+</Link>
+
+
+  </div>
+</nav>
 
       <section className="hero">
         <h1>Welcome to BookStore</h1>
