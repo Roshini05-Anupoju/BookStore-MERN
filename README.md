@@ -225,6 +225,6 @@ GET /seller/orders
 # 👨‍💻 Author
 
 **Roshini Anupoju**
-LinkedIn:
-linkedin.com/in/roshini-anupoju-05b729326
+LinkedIn:https://www.linkedin.com/in/roshini-anupoju-05b729326/
+
 
