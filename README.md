@@ -3,9 +3,6 @@
 A full-stack BookStore Management System built using the MERN Stack. The application supports three roles: User, Seller, and Admin. Users can browse and order books, sellers can manage their books, and admins can manage users, sellers, and books.
 
 ---
-
-## 🚀 Live Demo
-
 ### Frontend
 https://book-store-mern-fnchc67jy-roshinianupoju5-gmailcoms-projects.vercel.app
 
@@ -38,7 +35,7 @@ https://bookstore-mern-38rd.onrender.com/
 
 ---
 
-# ✨ Features
+# Features
 
 ## 👤 User
 
